@@ -1,0 +1,201 @@
+@font-face {
+    font-family: "anek";
+    src: url(../assets/fonts/coolvetica/AnekDevanagari-Regular.ttf);
+}
+
+.fondoGenerico {
+    background-color: #AB65F7;
+}
+
+.fondoPagina {
+    background-color: white;
+}
+
+.textoNegrita {
+    font-weight: bold;
+}
+
+.logoKann {
+    display: inline-block;
+    height: 120px;
+    margin: 0;
+    padding-left: 45%;
+}
+
+.reseteoLista {
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 25px;
+}
+
+body {
+    font-family: "anek";
+    background-color: #42275E;
+    position: relative;
+    padding-bottom: 2.5em;
+    min-height: 100vh;
+}
+
+.textoCentrado {
+    text-align: center;
+}
+
+.enlacesPaginas {
+    color: #AB65F7;
+}
+
+.sloganKann {
+    font-weight: bold;
+    line-height: 3;
+    text-decoration-line: underline;
+    font-family: 'Anek Devanagari', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.divAside {
+    float: right;
+    border-left: 10px solid black;
+    min-height: 711.11px;
+    min-width: 400px;
+}
+
+.integrantesKann div img {
+    border: 10px solid #AB65F7;
+}
+
+.integrantesKann div {
+    margin-left: 15%;
+}
+
+.integrantesKann div h3 {
+    font-size: 30px;
+}
+
+.formularioInline {
+    display: inline-block;
+    font-size: 25px;
+    margin-top: 30px;
+    color: white;
+    margin-left: 15px;
+}
+
+.menuBar {
+    background-color: black;
+}
+
+li {
+    display: inline-block;
+    padding: 15px;
+}
+
+ul {
+    display: block;
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    padding: 1em;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+header a {
+    color: #AB65F7;
+    text-decoration: none;
+}
+
+section article div {
+    display: inline-block;
+    padding: 20px;
+    margin-left: 50px;
+}
+
+.fotoSlogan {
+    border: 10px solid #AB65F7;
+    margin-left: 25%;
+}
+
+footer p {
+    color: #AB65F7;
+    font-size: 20px;
+}
+
+section article h2 {
+    font-size: 30px;
+}
+
+form div input {
+    margin: 10px;
+}
+
+.cajaDeTexto {
+    padding-left: 20px;
+}
+
+.fuenteBlanca {
+    color: white;
+}
+
+form input {
+    padding-left: 5px;
+}
+
+.somosKannTamaño {
+    font-size: 28px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.somosKannTamaño h2 {
+    text-decoration: underline;
+}
+
+.tiendaOficial {
+    font-weight: bold;
+    line-height: 2.5;
+    text-decoration-line: underline;
+    font-family: 'Anek Devanagari', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.headSet {
+    border: 10px solid #AB65F7;
+    display: inline-block;
+}
+
+.headSetDesc {
+   font-size: 20px;
+}
+
+.botonesCompra {
+    background-color: #AB65F7;
+    padding: 8px;
+}
+
+#amd {
+    margin-bottom: 10px;
+}
+
+#hyperx {
+    margin-bottom: 10px;
+}
+
+#logitech {
+    margin-bottom: 10px;
+}
+
+#nvidia {
+    margin-bottom: 10px;
+}
+
+#puma {
+    margin-bottom: 10px;
+}
+
+#adidas {
+    margin-bottom: 10px;
+}
