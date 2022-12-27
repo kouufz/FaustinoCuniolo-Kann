@@ -1,8 +1,3 @@
-@font-face {
-    font-family: "anek";
-    src: url(../assets/fonts/coolvetica/AnekDevanagari-Regular.ttf);
-}
-
 .fondoGenerico {
     background-color: #AB65F7;
 }
@@ -29,7 +24,7 @@
 }
 
 body {
-    font-family: "anek";
+    font-family: 'Nunito Sans', sans-serif;
     background-color: #42275E;
     position: relative;
     padding-bottom: 2.5em;
@@ -97,6 +92,7 @@ ul {
 footer {
     background-color: black;
     padding: 1em;
+    padding-bottom: 5px;
     bottom: 0;
     position: absolute;
     width: 100%;
