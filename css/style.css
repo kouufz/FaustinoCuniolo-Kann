@@ -144,9 +144,7 @@ form input {
 }
 
 .somosKannTamaño {
-    font-size: 28px;
-    margin: 0px;
-    padding: 0px;
+    font-size: 20px;
 }
 
 .somosKannTamaño h2 {
@@ -174,6 +172,15 @@ form input {
 .botonesCompra {
     background-color: #AB65F7;
     padding: 8px;
+}
+
+.boton-navBar{
+    color: #AB65F7;
+    transition: 0.5s;
+}
+
+.boton-navBar:hover{
+    color:white;
 }
 
 #amd {
