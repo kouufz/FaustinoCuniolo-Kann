@@ -107,7 +107,7 @@ section article div {
 
 .fotoSlogan {
     border: 10px solid #AB65F7;
-    margin-left: 25%;
+    justify-content: center;
 }
 
 footer p {
@@ -218,4 +218,20 @@ form input {
 
 .filaPad {
     justify-content: center;
+}
+
+#sponsorsMarcas {
+    padding: 40px 0;
+    padding-left: 15%;
+}
+
+#sponsorsMarcas .sponsors-items {
+    position: relative;
+    margin-bottom: 1px;
+    justify-content: center;
+}
+
+.centrarFoto {
+    margin:auto;
+    display:block;
 }
