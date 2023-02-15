@@ -213,3 +213,7 @@ form input {
     margin:auto;
     display:block;
 }
+
+.formInline {
+    display: inline-block;
+}
