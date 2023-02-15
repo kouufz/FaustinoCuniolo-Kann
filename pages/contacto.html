@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
@@ -12,59 +13,79 @@
     <title>Kann Members</title>
 </head>
 <body>
-    <header class="fondoGenerico textoNegrita">
-        <nav>
-            <img src="../assets/images/logo.jpg" alt="Kann logo" height="150" class="logoKann">
-            <ul class="enlacesPaginas reseteoLista">
-                <div class="menuBar">
-                    <li><a href="../pages/somoskann.html" class="boton-navBar">Somos Kann</a></li>
-                    <li><a href="../pages/merch.html" class="boton-navBar">Merch</a></li> 
-                    <li><a href="../pages/miembros.html" class="boton-navBar">Miembros</a></li>
-                    <li><a href="/index.html" class="boton-navBar">Inicio</a></li>
-                </div>
-                
-            </ul>
-        </nav>    
+    <header class="fondoGenerico">
+        <div>
+            <div>
+                <img src="../assets/images/logo.jpg" alt="Kann logo" style="width: 300px">
+            </div class="cointainer-fluid">
+            <nav class="navbar navbar-expand-md bg-black">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon fondoGenerico"></span>
+                  </button>
+              <div class="collapse navbar-collapse filaPad" id="menu">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="../index.html" class="boton-navBar nav-link" style="font-size: 20px; font-weight: bold;">Inicio</a></li>
+                    <li class="nav-item"><a href="./merch.html" class="boton-navBar nav-link" style="font-size: 20px; font-weight: bold">Merch</a></li>
+                    <li class="nav-item"><a href="./somoskann.html" class="boton-navBar nav-link" style="font-size: 20px; font-weight: bold">Somos Kann</a></li>
+                    <li class="nav-item"><a href="./miembros.html" class="boton-navBar nav-link" style="font-size: 20px; font-weight: bold">Miembros</a></li> 
+                </ul>
+              </div>
+            </nav>
+        </div>   
     </header>
+    <main>
+        <div class="container-fluid fuenteBlanca formularioInline">
+                <form action="" method="post" enctype="text/plain" class="row mt-4"></form>
 
-    <form action="" method="post" enctype="text/plain" class="formularioInline">
-    <h3 class="textoNegrita">
-        Kann Members
-    </h3>
-    <p style="font-size: 20px;">
-        Kann Members es nuestra invitación a que formes parte de la familia de Kann. <br>
-        Estamos construyendo una comunidad de fanáticas por los videojuegos, el streaming y los esports y queremos que formes parte de ella.
-    </p><br>
-    
-    <div>
-        <label for="Nombre Completo">Ingrese su nombre completo</label>
-    <input type="text" id="Nombre Completo" placeholder="Nombre Completo">
-    </div>
-    <div><br>
-        <label for="edad">Fecha de Nacimiento</label>
-        <input type="date" id="edad" size="1px">
-    </div> <br>
-    <div>
-        <label for="Email">Ingrese su email</label>
-        <input type="email" id="Email" placeholder="Email">
-    </div><br>
-    <div>
-        <label for="">Ingrese su nacionalidad</label>
-        <input type="text" id="Nacionalidad" placeholder="Nacionalidad">
-    </div><br>
-    <div>
-        <label for="nick">Ingrese su nick</label>
-        <input type="text" id="nick" placeholder="Nick">
-    </div><br>
-    <input type="submit">
-    <input type="reset">
+                <div class="col-6">
+                    <label for="emailimput" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="emailinput">
+                </div><br>
 
-</form>
-    <div class="divAside">
-        <img src="../assets/images/aside.jpg" alt="chica jugando" height="700px">
-    </div>
+                <div class="col-6">
+                    <label for="Nombre Completo" class="form-label"> Nombre Completo</label>
+                    <input type="text" class="form-control" id="Nombre Completo">
+                </div><br>
+
+                <div class="col-6">
+                    <label for="direccion" class="form-label">Direccion</label>
+                    <input type="text" class="form-control" id="direccion">
+                </div><br>
+
+                <div class="col-6">
+                    <label for="ciudad" class="form-label">Ciudad</label>
+                    <input type="text" class="form-control" id="ciudad">
+                </div><br>
+
+                <div class="col-3">
+                    <label for="codigopostal" class="form-label">Codigo postal</label>
+                    <input type="text" class="form-control" id="codigopostal">
+                </div><br>
+
+                <div class="col-3">
+                    <label for="pais" class="form-label">Pais</label>
+                    <input type="text" class="form-control" id="pais">
+                </div><br>
+
+                <div class="col-12">
+                    <div class="form-check">
+                        <label for="terminos" class="form-check-label">Acepto los terminos</label>
+                        <input type="checkbox" class="form-check-input" id="terminos">
+                    </div>
+                </div>
+
+                <div class="col-12 pt-3">
+                    <button type="submit" class="btn btn-primary" style="background-color: black; border: 3px solid #AB65F7;">Se parte de Kann</button>
+                </div><br>
+
+                <div class="col-12 pb-5">
+                    <button type="reset" class="btn btn-primary" style="background-color: black; border: 3px solid #AB65F7;">Reiniciar</button>
+                </div>
+         </div>
+ </main>
     <footer>
         <p class="textoCentrado">Copyright @ Kann 2022</p>
-    </footer>
+    </footer>   
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
 </body>
 </html>

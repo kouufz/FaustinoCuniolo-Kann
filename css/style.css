@@ -64,11 +64,7 @@ body {
 }
 
 .formularioInline {
-    display: inline-block;
-    font-size: 25px;
-    margin-top: 30px;
-    color: white;
-    margin-left: 15px;
+    justify-content: left;
 }
 
 .menuBar {
@@ -152,18 +148,24 @@ form input {
     text-align: center;
 }
 
-.headSet {
-    border: 10px solid #AB65F7;
-    display: inline-block;
+.cuadernoKann {
+    display: flex;
 }
 
-.headSetDesc {
-   font-size: 20px;
+.cuadernoFoto {
+    width: 350px;
+    margin-right: 50px;
+}
+
+.cuadernoDesc {
+    align-self: center;
 }
 
 .botonesCompra {
     background-color: #AB65F7;
-    padding: 8px;
+    padding: 10px;
+    width: 100px;
+    font-size: 20px;
 }
 
 .boton-navBar{
@@ -173,30 +175,6 @@ form input {
 
 .boton-navBar:hover{
     color:white;
-}
-
-#amd {
-    margin-bottom: 10px;
-}
-
-#hyperx {
-    margin-bottom: 10px;
-}
-
-#logitech {
-    margin-bottom: 10px;
-}
-
-#nvidia {
-    margin-bottom: 10px;
-}
-
-#puma {
-    margin-bottom: 10px;
-}
-
-#adidas {
-    margin-bottom: 10px;
 }
 
 #creadorasContenido {
